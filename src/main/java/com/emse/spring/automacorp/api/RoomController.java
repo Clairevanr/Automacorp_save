@@ -88,8 +88,8 @@ public class RoomController {
         return ResponseEntity.ok(RoomMapper.of(entity));
     }
 
-    /*// Open all the windows in the room
-    @PutMapping(path = "/{id}/closeWindows")
+    // Open all the windows in the room
+    @PutMapping(path = "/{id}/openWindows")
     public ResponseEntity<Room> openWindows(@PathVariable Long id) {
         RoomEntity entity = roomDao.findById(id).orElse(null);
         if (entity == null) {
@@ -99,6 +99,6 @@ public class RoomController {
         entity.setWindows(roomDao.findById(id).get().getWindows());
         return ResponseEntity.ok(RoomMapper.of(entity));
     }
-*/
+
 
 }
