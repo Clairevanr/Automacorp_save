@@ -16,8 +16,8 @@ public class WindowEntity {
     public WindowEntity() {
     }
 
-    public WindowEntity(String name, SensorEntity sensor, RoomEntity room) {
-        this.windowStatus = sensor;
+    public WindowEntity(String name,SensorEntity windowStatus, RoomEntity room) {
+        this.windowStatus = windowStatus;
         this.name = name;
         this.room = room;
 
@@ -43,7 +43,15 @@ public class WindowEntity {
         return windowStatus;
     }
 
+    public RoomEntity getRoom() {
+        return room;
+    }
+
     public void setWindowStatus(SensorEntity windowStatus) {
         this.windowStatus = windowStatus;
+    }
+
+    public void setRoom(RoomEntity room) {
+        this.room=room;
     }
 }

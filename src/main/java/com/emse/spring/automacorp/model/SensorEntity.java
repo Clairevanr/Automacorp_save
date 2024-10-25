@@ -30,6 +30,9 @@ public class SensorEntity {
         this.sensorType = sensorType;
     }
 
+    public SensorEntity(Long id, String name, Double value, SensorType sensorType) {
+    }
+
     public Long getId() { // .
         return id;
     }
@@ -69,4 +72,7 @@ public class SensorEntity {
     public void setNotImportant(Integer notImportant) {
         this.notImportant = notImportant;
     }
+
+
+
 }
