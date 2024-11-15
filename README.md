@@ -13,7 +13,7 @@ Try this command if available :
     dos2unix gradlew
 
 
-## How to build the project :
+# How to build the project :
 
 ## Clone the Repository: Clone the project to your local machine:
     git clone https://github.com/Clairevanr/Automacorp_save.git 
