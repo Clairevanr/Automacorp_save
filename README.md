@@ -2,7 +2,7 @@
 
 
 ## Requirements :
--JDK 21 at least (to use gradle)
+-JDK 21 at least (to use gradle)  
 -Gradle (You can use the Gradle Wrapper coming with the project)
 
 ## How to build the project :
