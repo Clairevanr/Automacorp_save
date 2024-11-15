@@ -5,6 +5,13 @@
 -JDK 21 at least (to use gradle)  
 -Gradle (You can use the Gradle Wrapper coming with the project)
 
+/!\ CAUTION
+The project was hosted on Windows to help dealing with some errors (as suggested by the instructor). 
+So there will be issues building it on a UNIX like machine
+Try this command if available :
+    dos2unix gradlew
+
+
 ## How to build the project :
 
 ## Clone the Repository: Clone the project to your local machine:
