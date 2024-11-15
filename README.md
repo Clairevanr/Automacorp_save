@@ -1,5 +1,5 @@
 
-# Note :  this version of the project in incomplete 
+# Note :  this version of the project is incomplete 
 
 # Requirements :
 -JDK 21 at least (to use gradle)  
