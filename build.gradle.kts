@@ -6,6 +6,8 @@ plugins {
 
 group = "com.emse.spring"
 version = "0.0.1-SNAPSHOT"
+description = "An uncompleteted project designed to manage sensors in a building. Used to learn to developp with Spring and build with gradle"
+
 
 java {
 	toolchain {
