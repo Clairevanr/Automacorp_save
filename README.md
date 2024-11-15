@@ -1,9 +1,16 @@
 
-
+# Note :  this version of the project in incomplete 
 
 # Requirements :
 -JDK 21 at least (to use gradle)  
 -Gradle (You can use the Gradle Wrapper coming with the project)
+
+# Powered by :
+-Gradle
+-Junit
+-Spring
+-H2
+-Mockito
 
 /!\ CAUTION
 The project was hosted on Windows to help dealing with some errors (as suggested by the instructor). 
